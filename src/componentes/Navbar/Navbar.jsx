@@ -11,22 +11,22 @@ export default function Navbar() {
           </li>
         </h2>
         <li className="nav-item">
-          <Link className="nav-link" to="/category/indumentaria">
+          <Link className="nav-link" to="/category/Celulares">
             Celulares
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/category/calzado">
+          <Link className="nav-link" to="/category/Tablets">
             Tablets
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/product">
+          <Link className="nav-link" to="/category/Notebooks">
             Notebooks
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/prueba">
+          <Link className="nav-link" to="/category/Televisores">
             Televisores
           </Link>
         </li>
@@ -36,7 +36,7 @@ export default function Navbar() {
             Seguinos...
           </Link>
         </li>
-         <CartWidget/>
+        <CartWidget/>
         
       </ul>
     </nav>
